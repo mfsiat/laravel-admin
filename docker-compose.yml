@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  frontend:
+    image: antoniopapa1991/admin-frontend
+
+  backend:
+
+  db:
+    container_name: admin_db
+    image: mysql:5.7.22
+    environment:
+      - MYSQL_DATABASE= admin
